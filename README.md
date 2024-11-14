@@ -16,4 +16,16 @@ The research article used for reference is [Peter M. Douglass, Timothy O'Connor,
 3. **alexnet.py**, resnet50.py, vgg19.py, squeezenet.py: Contain loading and implementation of pre-trained models along with calculation of evaluation metrics, also generate respective pickle files to be used in ROC curve construction
 4. **auc_score**: Loads the pickle files of all four models into a single file and plots the ROC curve to find AUC score
 
+### Observations
+| Model | Accuracy | Precision | Recall | F1 Score |
+|-------|----------|-----------|--------|----------|
+| AlexNet | 89.53% | 0.9219 | 0.9365 | 0.9291 |
+| ResNet-50 | 90.70% | 0.9836 | 0.8955 | 0.9375 |
+| VGG-19 | 96.51% | 0.9552 | 1.000 | 0.9771 |
+| SqueezeNet | 91.86% | 0.9104 | 0.9839 | 0.9457|
+
+![ROC Curve and AUC score](auc_graph_2.png)
+
+VGG-19 and SqueezeNet emerged as top models, with VGG-19 excelling in recall and accuracy, while SqueezeNet showed balanced performance with the highest AUC score, suggesting it might generalize well for this classification task.
+
 VGG-19 and SqueezeNet emerged as top models, with VGG-19 excelling in recall and accuracy, while SqueezeNet showed balanced performance with the highest AUC score, suggesting it might generalize well for this classification task.
