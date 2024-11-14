@@ -27,5 +27,3 @@ The research article used for reference is [Peter M. Douglass, Timothy O'Connor,
 ![ROC Curve and AUC score](auc_graph_2.png)
 
 VGG-19 and SqueezeNet emerged as top models, with VGG-19 excelling in recall and accuracy, while SqueezeNet showed balanced performance with the highest AUC score, suggesting it might generalize well for this classification task.
-
-VGG-19 and SqueezeNet emerged as top models, with VGG-19 excelling in recall and accuracy, while SqueezeNet showed balanced performance with the highest AUC score, suggesting it might generalize well for this classification task.
